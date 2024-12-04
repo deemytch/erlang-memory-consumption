@@ -1,0 +1,22 @@
+/_build/
+/cover/
+/deps/
+/doc/
+/.fetch
+erl_crash.dump
+*.ez
+selenix-*.tar
+/tmp/
+*~
+# must to be rebuilt whenever elixir or erlang version changes.
+!/priv/plts/*.plt
+!/priv/plts/*.plt.hash
+
+/*.tar
+/priv/static/cache_manifest.json
+/priv/static/assets/
+/assets/node_modules/
+/config/env/*
+!/config/env/*example*
+/docs/*.png
+/binary
